@@ -1,0 +1,66 @@
+@import 'https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css';
+@import 'https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css';
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.carousal-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.arrow {
+ cursor: pointer;
+ margin-left: 30px;
+ margin-left: 30px;
+}
+
+.css-1sumxir-MuiFormLabel-root-MuiInputLabel-root.Mui-focused {
+  background: linear-gradient(to bottom, #ced3de 50%, #fff 50%);
+}
+
+
+.col-lg-4.col-md-4.col-sm-12.col-12:last-child{
+  margin-bottom: 0;
+}
+/* 
+.slick-slider.slick-initialized {
+  margin: 32px;
+} */

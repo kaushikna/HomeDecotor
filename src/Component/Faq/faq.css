@@ -1,0 +1,123 @@
+.container2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 960px;  
+  }
+  .mobileOuter{
+    width: 100%;
+  }
+  
+  .faq-div{
+    width: 100%;
+    display: flex;
+    cursor: pointer;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 15px;
+  }
+
+  .faq-div .Updown {
+    padding-top: 8px;
+    padding-left: 20px;
+  }
+  
+  .faq-head {
+    margin-top: 48px;
+    margin-bottom: 48px;
+    color: #224680;
+  }
+  
+  .head2{
+    font-family: 'Lato'; 
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 35px;
+    color: black;
+    padding-bottom: 10px;
+  }
+
+  .description {
+    font-size: 16px;
+    width: 100%;
+  
+  }
+
+
+  .dropdown, .UpDown{
+    width: 12px;
+    height: 8px;
+    margin-left: 30px;
+  }
+  
+  .line{
+    opacity: 0.4;
+    height: 1px;
+    background-color: gray;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  
+  
+  @media screen and (max-width:767px) {
+    .faq-div{
+      width: calc(100%);
+      margin-left:auto; margin-right: auto;
+    }
+    .faq-head {
+      margin-top: 48px;
+      margin-bottom: 32px;
+    }
+    .line{
+      width: calc(100%);
+      margin-left:auto; margin-right: auto;
+    }
+    .head2{
+      font-family: 'Lato';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 20px;
+      /* or 143% */
+      margin-right:0px;
+
+      color: #58595B;
+      padding-bottom: 0;
+    }
+    .para {
+      font-size: 12px;
+    }
+
+    .para{
+      padding: 0 20px;
+    }
+    .description {
+      font-size: 12px;
+      width: 85%;
+      margin-left: 0px;
+    }
+
+    .outer-desc {
+      font-size: 12px;
+      width: 100%;
+      margin-left: 0;
+    }
+    
+  }
+
+  @media (min-width:768px) and (max-width:991px) {
+    .container2{
+      max-width: 100%;
+      padding-left: 40px;
+      padding-right: 40px;
+    }
+  }
+
+  @media screen and (max-width: 480px){
+    .container2{
+      padding-left: 25px;
+      padding-right: 25px;
+    }
+  }
